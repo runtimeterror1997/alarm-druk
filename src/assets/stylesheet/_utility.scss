@@ -1,0 +1,168 @@
+@import 'variable';
+
+.full-width {
+  width: 100%;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+.half-width {
+  width: 50%;
+}
+.space-between {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hand-cursor {
+  cursor: pointer !important;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.unset-overflow {
+  overflow: unset !important;
+}
+
+.unset-height {
+  height: unset !important;
+}
+
+.unset-width {
+  width: unset !important;
+}
+
+a {
+  color: $primary-color;
+
+  &:hover, &:focus {
+    cursor: pointer;
+  }
+}
+
+.avatar-xl {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+}
+
+.avatar-lg {
+  width: 160px;
+  height: 160px;
+  border-radius: 50px;
+}
+
+.avatar-md {
+  width: 120px;
+  height: 120px;
+  border-radius: 50px;
+}
+
+.avatar-sm {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.avatar-xs {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.my-blue {
+  color: #cee0ef;
+}
+
+.gray-color {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.green-color {
+  color: #11AA44;
+}
+
+.orange-color {
+  color: #FF6600;
+}
+
+.yellow-color {
+  color: #FFC008;
+}
+
+.white-color {
+  color: #FFFFFF;
+}
+
+.text-bold {
+  font-weight: bold !important;
+}
+
+.decoration-none {
+  text-decoration: none !important;
+}
+
+.border-none {
+  border: none !important;
+}
+
+.outline-btn {
+  border: 1px solid $primary-color !important;
+  background: transparent !important;
+  color: $primary-color !important;
+}
+
+.detail-decoration {
+  &:hover {
+    text-decoration: underline;
+    color: $primary-color;
+  }
+}
+
+

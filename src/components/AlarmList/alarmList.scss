@@ -1,0 +1,27 @@
+@import '../../assets/stylesheet/_breakpoints.scss';
+@import '../../assets/stylesheet/variable';
+
+.card-alarm {
+  width: 40%;
+  box-shadow: #8D8D90;
+  margin-top: 60px;
+  background-color: transparent;
+
+  @include breakpoints('md') {
+    width: 100%;
+  }
+
+  @include breakpoints('sm') {
+    width: 100%;
+  }
+
+  @include breakpoints('xs') {
+    width: 100%;
+  }
+
+  .card-header {
+    width: 100%;
+    background-image: linear-gradient(to bottom right, yellow, orange);
+  }
+
+}
